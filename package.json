@@ -1,0 +1,25 @@
+{
+  "name": "simplify-backend-node",
+  "version": "1.0.0",
+  "description": "Simplify Backend Using NodeJS",
+  "main": "index.js",
+  "repository": "git@github.com:tranconghuy456/simplify-backend-node.git",
+  "author": "HuyPaul",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.4",
+    "morgan": "^1.10.0"
+  }
+}
