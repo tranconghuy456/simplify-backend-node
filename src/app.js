@@ -60,6 +60,6 @@ if (checkEnable(appConfigs.db.isEnable)) {
 }
 
 // init routes
-// app.use("", require("./routes"));
+app.use("", require("./routes"));
 
 module.exports = app;
